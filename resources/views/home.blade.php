@@ -8,9 +8,7 @@
     <title>Oliver & Grimsley, LLC Firm Client System</title>
 
     <!-- Styles -->
-    <link href="{{ mix('/css/vue-multiselect.css') }}" rel="stylesheet">
-    <link href="{{ mix('/css/og-form.css') }}" rel="stylesheet">
-    <link href="{{ mix('/css/tailwind.css') }}" rel="stylesheet">
+    <link href="/css/tailwind.css" rel="stylesheet">
 </head>
 <body class="bg-grey-lighter h-screen font-sans">
   <div id="app" style="margin-top: 1.2em;" class="container mx-auto">
@@ -22,6 +20,6 @@
 </div>
 
 {{-- <script src="/js/app.js"></script> --}}
-<script src="{{ mix('/js/app.js') }}"></script>
+<script src="/js/app.js"></script>
 </body>
 </html>
